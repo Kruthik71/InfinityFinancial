@@ -1,0 +1,32 @@
+html{
+    background: black;
+}
+body{
+    background: white;
+    font-family: monospace;
+    line-height: 1.5em
+}
+header{
+    text-align: center;
+    background: url(banner.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+.spacer{
+    height: 70px;
+}
+ul{
+   background: rgba(42, 39, 39, 0.44); 
+}
+li{
+	display: block;
+}
+@media screen and (min-width: 520px)
+{
+	.spacer{
+		height: 180px;
+	}
+	li{
+		display: inline;
+	}
+}
